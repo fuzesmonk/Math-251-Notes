@@ -1,0 +1,89 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{nameref}
+\usepackage{thmtools}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\title{Math Notes}
+\begin{document}
+	\section{Chapter 1}
+	
+	\section{Chapter 2}
+	
+	\section{Chapter 3}
+		\subsection{Derivatives of Polynomials and Exponential Functions}
+		\subsubsection{Power Rule}
+		
+		General Power Rule: $\frac{d}{dx}(x^{n}) = nx^{n-1}$
+		
+		\subsubsection{Constant Multiple Rule}
+		If c is a constant and f is a differentiable function: 
+		\begin{center}
+			$\frac{d}{dx}cf(x) = c\frac{d}{dx}f(x)$
+		\end{center}
+		\subsubsection{Sum Rule}
+		If f and g are both differentiable:
+		\begin{center}
+			$\frac{d}{dx} [f(x)+ g(x)] = \frac{d}{dx}f(x) + \frac{d}{dx}g(x)$
+		\end{center}
+		\subsubsection{Difference Rule}
+		If f and g are both differentiable: 
+		\begin{center}
+			$\frac{d}{dx}[f(x) - g(x)] = \frac{d}{dx}f(x) - \frac{d}{dx}g(x)$
+		\end{center}
+		\subsubsection{Product Rule}
+		If f and g are both differentiable: 
+		\begin{center}
+			$\frac{d}{dx}[f(x)g(x)] = f(x)\frac{d}{dx}[g(x)] + g(x)\frac{d}{dx}[f(x)]$
+		\end{center}
+		\subsubsection{Quotient Rule}
+		If f and g are differentiable:
+		\begin{center}
+			$\frac{d}{dx}[\frac{f(x)}{g(x)}] = \frac{g(x)\frac{d}{dx}[f(x)]-f(x)\frac{d}{dx}[g(x)]}{[g(x)]^{2}}$
+		\end{center}
+		\subsection{The Product and Quotient Rules}
+		\subsection{Derivatives of Trigonometric Functions}
+			$\frac{d}{dx}(\sin{x}) = \cos{x}$
+		\\	$\frac{d}{dx}(\cos{x}) = -\sin{x}$
+		\\	$\frac{d}{dx}(\tan{x}) = \sec^{2}{x}$
+		\\	$\frac{d}{dx}(\csc{x}) = \csc{x}\cot{x}$
+		\\	$\frac{d}{dx}(\sec{x})= \sec{x}\tan{x}$
+		\\	$\frac{d}{dx}(\cot{x}) = -\csc^{2}{x}$
+		\\	$\frac{d}{dx}(\sin^{-1}{x}) = \frac{1}{\sqrt{1-x^{2}}}$
+		\\	$\frac{d}{dx}(\cos^{-1}{x}) = -\frac{1}{\sqrt{1-x^{2}}}$
+		\\	$\frac{d}{dx}(\tan^{-1}{x}) = \frac{1}{1+x^{2}}$
+		\\ $\frac{d}{dx}(\cot^{-1}{x}) = -\frac{1}{1+x^{2}}$
+		\\ $\frac{d}{dx}(\sec^{-1}{x}) = \frac{1}{x\sqrt{x^{2}-1}}$
+		\\ $\frac{d}{dx}(\csc^{-1}{x}) = -\frac{1}{x\sqrt{x^{2}-1}}$
+
+	
+	\subsection{Chain Rule}
+		Given the function $\frac{d}{dx}f(g(x))$, $ \frac{d}{dx} = f'(g(x))*g'(x)$
+
+	\subsection{Chain Rule}
+		If \textit{g} is differentiable at \textit{x} and \textit{f} is differentiable at $g(x)$ then the composite function $F = f*g$ defined by $F(x) = f(g(x))$ is differentiable at $x$ and that $F'$is given by the product:
+		\begin{center}
+			$F'(x) = f'(g(X)) * g'(x)$	
+		\end{center}
+		In Leibniz notation, if $y=f(u)$ and $u=g(x)$ are both differentiable functions then:
+		\begin{center}
+			$\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx}$
+		\end{center}
+		\begin{theorem}
+			\textbf{Power Rule Combined With Chain Rule} If \textit{n} is any real number and $u=g(x)$ is differentiable then,
+			\begin{center}
+				$\frac{d}{dx}(u^{n}) = nu^{n-1}\frac{du}{dx}$
+			\end{center}
+			As such, $\frac{d}{dx}[g(x)]^{n} = n[g(x)]^{n-1} * g'(x)$
+		\end{theorem}
+	\subsection{Implicit Differentiation}
+	\begin{definition}
+		\textbf{Implicit Differentiation}: The process of differentiating both sides of the equation with respect to x and then solving the resulting equation for $y'$
+	\end{definition}
+	Essentially, if the function says to take the derivative with respect to x, and there is a variable other than x present in the equation, derive the equation using normal differentiation rules, and at a $\frac{dn}{dx}$ where n is the variable letter present in the equation
+\end{document}
