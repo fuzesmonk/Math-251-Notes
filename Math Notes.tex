@@ -83,7 +83,56 @@
 		\end{theorem}
 	\subsection{Implicit Differentiation}
 	\begin{definition}
-		\textbf{Implicit Differentiation}: The process of differentiating both sides of the equation with respect to x and then solving the resulting equation for $y'$
+		\textbf{Implicit Differentiation}:
+		\\ The process of differentiating both sides of the equation with respect to x and then solving the resulting equation for $y'$
 	\end{definition}
 	Essentially, if the function says to take the derivative with respect to x, and there is a variable other than x present in the equation, derive the equation using normal differentiation rules, and at a $\frac{dn}{dx}$ where n is the variable letter present in the equation
+	\subsection{Derivatives of Logarithmic Functions}
+		General Form: $\frac{d}{dx}(log_{b}{x}) = \frac{1}{x\ln{b}}$
+		Proof: Let $y=\log_{b}{x}$ Then
+		\begin{center}
+			$b^{y}=x$
+		\end{center}
+		Using the general form for taking the derivative, you get:
+		\begin{center}
+			$b^{y}(\ln{b})\frac{dy}{dx}=1$
+			\\so
+			\\$\frac{dy}{dx}=\frac{1}{b^{y}\ln{b}} = \frac{1}{x\ln{b}}$
+		\end{center}
+		Taking the Derivative of $y=\ln{x}$:
+		\\Using the above General Form, you can solve for the derivative of $y=\ln{x}$:
+		\begin{center}
+			$\frac{d}{dx}(\ln{x})=\frac{1}{x}$
+		\end{center}
+		\textbf{IMPORTANT}:
+		\\When taking the derivative of a logarithmic function, such as the derivative of $y=\ln{x^{3}+1}$ you will have to use chain rule.
+		\\$\frac{d}{dx}(\ln{u}) = \frac{1}{u}\frac{du}{dx}$ and $\frac{d}{dx}[\ln{g(x)}] = \frac{g'(x)}{g(x)}$
+		\\Another Derivative to remember is the derivative of $\ln|x|$ which derives to $\frac{1}{x}$
+		\subsubsection{Using Logarithmic Differentiation}
+		1. Take natural logarithms of both sides of an equation $y=f(x)$ and use the Laws of Logarithms to simplify
+		\\2. Differentiate implicitly with respect to x.
+		\\3. Splve the resulting equation for $y'$
+		For example, let $y=x^{n}$
+		\begin{center}
+			$\ln{|y|} = \ln{|x|^{n}}=n\ln{x}$ when $x \neq 0$
+		\end{center}
+		For Logarithmic differentiation to be used, both the \textbf{base} and the \textbf{exponent} must not be constants
+		\begin{definition}
+			$e=\lim_{x\rightarrow 0}{(1+x)^{\frac{1}{x}}}$ 
+			\\which when evaluated, defines e as $e\approx 2.7182818$
+			\\Another form to define e is: 
+			$e=\lim_{n\rightarrow\infty}{(1+\frac{1}{n})^{n}}$
+		\end{definition}
+	\subsection{Rates of Change in the Natural and Social Sciences}
+	Rates of change: 
+	\\If x changes from $\Delta{x} = x_{2}-x_{1}$
+	\\Which means the change in y is $\Delta{y} = f(x_{2})-f(x_{1})$
+	\\The difference quotient, which will give us the average rate of change in y with respect to x is defined as
+	\begin{center} 
+		$\frac{\Delta{y}}{\Delta{x}}= \frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}$
+	\end{center}
+	Finding the instantaneous rate of change of y with respect to x is defined as:
+	\begin{center}
+		$\frac{dy}{dx}= \lim_{\Delta{x}\rightarrow 0}{\frac{\Delta{y}}{\Delta{x}}}$
+	\end{center}
 \end{document}
