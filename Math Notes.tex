@@ -64,9 +64,7 @@
 	
 	\subsection{Chain Rule}
 		Given the function $\frac{d}{dx}f(g(x))$, $ \frac{d}{dx} = f'(g(x))*g'(x)$
-
-	\subsection{Chain Rule}
-		If \textit{g} is differentiable at \textit{x} and \textit{f} is differentiable at $g(x)$ then the composite function $F = f*g$ defined by $F(x) = f(g(x))$ is differentiable at $x$ and that $F'$is given by the product:
+\\		If \textit{g} is differentiable at \textit{x} and \textit{f} is differentiable at $g(x)$ then the composite function $F = f*g$ defined by $F(x) = f(g(x))$ is differentiable at $x$ and that $F'$is given by the product:
 		\begin{center}
 			$F'(x) = f'(g(X)) * g'(x)$	
 		\end{center}
@@ -135,4 +133,23 @@
 	\begin{center}
 		$\frac{dy}{dx}= \lim_{\Delta{x}\rightarrow 0}{\frac{\Delta{y}}{\Delta{x}}}$
 	\end{center}
+	\subsection{Exponential Growth and Decay}
+	If $y(t)$ is the value of a quantity $y$ at time $t$ and if the rate of change of $y$ with respect to $t$ is proportional to its size $y(t)$ at any time, then:
+	\begin{center}
+		$\frac{dy}{dt} = ky$
+	\end{center}	
+	$y'(t)=C(ke^{kt})=k(Ce^{kt})=ky(t)$
+	where k is the rate at which the function is growing or decaying
+	\\C is a constant
+	\\T is time
+\pagebreak
+	\subsection{Related Rates}
+		General Process for solving related rates problems:
+\\		1. Read the problem carefully
+\\		2. Draw a diagram if possible
+\\		3. Introduce notation. Assign symbols to all quantities that are functions of time
+\\		4. Express the given information and the required rates in terms of derivatives
+\\		5. Write an equation that relates the various quantities of the problems. If necessary, use the geometry of the situation to eliminate one of the variable by substitution
+\\		6. Use the Chain Rule to differentiate both sides of the equation with respect to t
+\\		7. Substitute the given information into the resulting equation and solve for the unknown rate.
 \end{document}
