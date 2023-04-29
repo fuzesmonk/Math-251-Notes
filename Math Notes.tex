@@ -210,4 +210,66 @@ To find the \textit{absolute} maximum and minimum values of a continuous functio
 	\end{center}
 \end{theorem}
 The slope of the secant line $AB$ is $m_{ab}=\frac{f(b)-f(a)}{b-a}$
+
+\subsection{How Derivatives Affect the Shape of the Graph}
+\subsubsection{Increasing Decreasing Test}
+a) If $f'(x) > 0$ on an interval, then $f$ is increasing on that interval
+\\b) If $f'(x) < 0 $ on an interval, then $f$ is decreasing on that interval
+
+\subsubsection{The First Derivative Test}
+Suppose that $c$ is a critical number of a continuous function $f$.
+\\
+\\ a) If $f'$ changes from positive to negative at $c$, then $f$ has a local maximum at $c$.
+\\ b) If $f'$ changes from negative to positive at $c$, then $f$ has a local minimum at $c$.
+\\ c) If $f'$ is positive to the left and right of $c$, or negative to the left and right of $c$, then $f$ has no local maximum or minimum at $c$.
+
+\begin{definition}
+	If the graph of $f$ lies above all of its tangents on an interval $I$, then it is called \textbf{concave upward} on $I$. If the graph of $f$ lies below all of its tangents on $I$, it is called \textbf{concave downwards} on $I$.
+\end{definition}
+\subsubsection{Concavity Test}
+(a) If $f"(x) > 0$ for all $x$ in $I$, then the graph of $f$ is concave upward on $I$.
+(b) If $f"(x) < 0$ for all $x$ in $I$, then the graph of $f$ is concave downward on $I$.
+
+\begin{definition}
+	\textbf{Inflection Point}: A point $P$ on a curve $y=f(x)$ is called an inflection point if $f$ is continuous there and the curve changes from concave upward to concave downward or the concave downward to concave upward at $P$.
+\end{definition}
+\subsubsection{The Second Derivative Test}
+Suppose $f"$ is continuous near $c$. 
+\\(a) If $f'(c) = 0$ and $f"(c) >0$, then $f$ has a local minimum at $c$.
+\\(b) If $f'(c) = 0$ and $f"(c) < 0$, then $f$ has a local maximum at $c$.
+
+\subsection{Indeterminate Forms and L'Hospital's Rule}
+\subsubsection{L'Hospital's Rule}
+\textbf{IMPORTANT} You can only use L'Hospital's Rule when the limit is in an indeterminate form like $\frac{0}{0}$, $\frac{-\infty}{-\infty}$, or $\frac{\infty}{\infty}$
+\\Suppose $f$ and $g$ are differentiable and $g'(x) \neq 0 $ on an open interval $I$ that contains $a$(except possibly at $a$). Suppose that:
+\begin{center}
+	$\lim_{x\rightarrow a}{f(x)} = 0$ and
+	$\lim_{x\rightarrow a}{g(x)} = 0$
+\\	or that
+\\	$\lim_{x\rightarrow a}{f(x)} = \pm \infty $ and $\lim_{x \rightarrow a}{g(x)} = \pm \infty $
+\end{center}
+(In other words, we have an indeterminate form of type $\frac{0}{0}$ or $\frac{\infty}{\infty}$. Then: 
+\begin{center}
+	$\lim_{x\rightarrow a}{\frac{f(x)}{g(x)}} = \lim_{x \rightarrow a}{\frac{f'(x)}{g'(x)}}$
+\end{center}
+if the limit on the right side exists (or is $\infty $ or $-\infty$).
+\subsubsection{Indeterminate Forms}
+Indeterminate forms is when an equations evaluates into $\frac{0}{0}$, $\frac{\infty}{\infty}$, $\frac{-\infty}{-\infty}$
+\\This even works for functions in a form like $f(x) - g(x)$
+\\  \textbf{Indeterminate Powers}:
+There are several indeterminate forms arise from the limit:
+\begin{center}
+	$\lim_{x\rightarrow a}{[f(x)]^{g(x)}}$
+\end{center}
+1.$\lim_{x \rightarrow a}{f(x)} = 0$ and $ \lim_{x \rightarrow a}{g(x)} = 0$ which evaluates to the type $0^{0}$
+\\2. $\lim_{x \rightarrow a}{f(x)} = \infty$ and $\lim_{x \rightarrow a}{g(x)} = 0$ which evaluates to the type $\infty^{0}$
+\\ 3. $\lim_{x \rightarrow a}{f(X)} = 1$ and $\lim_{x \rightarrow a}{g(x)} = \pm \infty $ which evaluates to the type $1^{\infty}$
+
+Evaluate each of these cases by taking the natural logarithm: 
+\\ So: $y=[f(x)]^{g(x)}$, then $\ln y = g(x) \ln f(x)$
+\\ Or by converting to an exponential: $[f(x)]^{g(x)} = e^{g(x)\ln f(x)}$
+
+
+
+	
 \end{document}
