@@ -7,6 +7,10 @@
 \usepackage{amsthm}
 \usepackage{nameref}
 \usepackage{thmtools}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{units}
 \newtheorem{theorem}{Theorem}
 \newtheorem{definition}{Definition}
 \title{Math Notes}
@@ -268,6 +272,59 @@ There are several indeterminate forms arise from the limit:
 Evaluate each of these cases by taking the natural logarithm: 
 \\ So: $y=[f(x)]^{g(x)}$, then $\ln y = g(x) \ln f(x)$
 \\ Or by converting to an exponential: $[f(x)]^{g(x)} = e^{g(x)\ln f(x)}$
+
+\subsection{Summary of Curve Sketching}
+	\subsubsection{Guidelines for Sketching a Curve}
+		\begin{enumerate}
+			\item Domain: Start by determining the domain $D$ of $f$
+			\item Intercepts: Find the x and y intercepts if possible
+			\item Determine Symmetry
+				\begin{enumerate}
+					\item Even Function:If $f(-x) = f(x)$ for all $x$ in $D$, that means the graph is symmetric and you can graph the function by graphing half than reflecting across the y-axis
+					\item Odd Function: If $f(-x) = -f(x)$ for all $x$ in $D$, the curve is symmetric around the origin. You can graph the function more easily by taking one half of the function and rotating that line 180$\deg$ around the origin
+					\item Periodic Function: If $f(x+p) = f(x)$ for all $x$ in $D$, when $p$ is a positive constant, and the smallest such number $p$ is the period. Example is the function $y=sin{x}$
+				\end{enumerate}
+			\item \textbf{Asymptotes}
+				\begin{enumerate}
+					\item \textbf{Horizontal Asymptotes} \quad If either $\lim_{x \rightarrow -\infty}{f(x)}=L$ or \linebreak $\lim_{x \rightarrow \infty}{f(x)} = L$ then it is a horizontal asymptote
+					
+					\item \textbf{Vertical Asymptotes} \quad  The line $x=a$ is a vertical asymptote if:
+						\begin{center}
+							$\lim_{x \rightarrow a^{+}}{f(x)} = \infty$\quad or \quad $\lim_{x \rightarrow a^{-}}{f(x)}=\infty $
+\\							$\lim_{x \rightarrow a^{+}{f(x)}} = -\infty $\quad or \quad $\lim_{x \rightarrow a^{-}}{f(x)}= - \infty $
+						\end{center}
+				\end{enumerate}
+			\item \textbf{Intervals of Increase or Decrease} Use the Increasing/Decreasing Test. Compute $f'(x)$ and find the intervals on which $f'(x)$ is positive($f$ is increasing) and the intervals on which $f'(x)$ is negative($f$ is decreasing)
+			
+			\item \textbf{Local Maximum and Minimum Values} Find the critical numbers of $f$[the numbers $c$ where $f'(c)=0$ or $f'(c)$ does not exist]. Then use First Derivative Test. If $f'$ changes from positive to negative at $c$, then $f(c)$ is a local maximum. If $f'$ changes from negative to positive at $c$, then $f(c)$ is a local minimum.
+			
+			\item \textbf{Concavity and Points of Inflection} Compute $f"(x)$ and use the Concavity Test. The curve is concave upward where $f"(x) > 0$ and concave downward where $f"(x) < 0$. Inflection points occur where the direction of concavity changes.
+			
+			\item \textbf{Sketch the Curve} Take all of the info gathered from the previous steps and combine it into one cohesive graph.
+			
+	\subsubsection{Slant Asymptotes}
+		Some curves have asymptotes that are oblique, i.e neither horizontal nor vertical.
+		\\ If $\lim_{x \rightarrow \infty}{f(x)-(mx+b)} = 0$ where $m \neq 0$ then the line $mx+b$ is a slant asymptote.
+\subsection{Graphing With Calculus and a Calculator}
+Not Applicable due to Professor Wong not letting us use graphing calculators.
+
+\subsection{Optimization Problems}
+	\subsubsection{Steps in Solving Optimization Problems}
+		\begin{enumerate}
+			\item \textbf{Understand the Problem} Ask these kinds of questions: What is the unknown? What are the given quantities? What are the given conditions?
+			
+			\item \textbf{Draw a Diagram} In most problems it is useful to draw diagram and identify the given and required quantities on the diagram
+			
+			\item \textbf{Introduce Notation} Assign a symbol to the quantity that is to be maximized or minimized. Also assign symbols to other quantities that are unknown and use them in the diagram.
+			
+			\item Express the Symbol used for the unknown quantity
+		\end{enumerate}
+			
+			
+			
+		\end{enumerate}
+
+	
 
 
 
