@@ -294,6 +294,7 @@ Evaluate each of these cases by taking the natural logarithm:
 \\							$\lim_{x \rightarrow a^{+}{f(x)}} = -\infty $\quad or \quad $\lim_{x \rightarrow a^{-}}{f(x)}= - \infty $
 						\end{center}
 				\end{enumerate}
+
 			\item \textbf{Intervals of Increase or Decrease} Use the Increasing/Decreasing Test. Compute $f'(x)$ and find the intervals on which $f'(x)$ is positive($f$ is increasing) and the intervals on which $f'(x)$ is negative($f$ is decreasing)
 			
 			\item \textbf{Local Maximum and Minimum Values} Find the critical numbers of $f$[the numbers $c$ where $f'(c)=0$ or $f'(c)$ does not exist]. Then use First Derivative Test. If $f'$ changes from positive to negative at $c$, then $f(c)$ is a local maximum. If $f'$ changes from negative to positive at $c$, then $f(c)$ is a local minimum.
@@ -301,7 +302,7 @@ Evaluate each of these cases by taking the natural logarithm:
 			\item \textbf{Concavity and Points of Inflection} Compute $f"(x)$ and use the Concavity Test. The curve is concave upward where $f"(x) > 0$ and concave downward where $f"(x) < 0$. Inflection points occur where the direction of concavity changes.
 			
 			\item \textbf{Sketch the Curve} Take all of the info gathered from the previous steps and combine it into one cohesive graph.
-			
+	\end{enumerate}	
 	\subsubsection{Slant Asymptotes}
 		Some curves have asymptotes that are oblique, i.e neither horizontal nor vertical.
 		\\ If $\lim_{x \rightarrow \infty}{f(x)-(mx+b)} = 0$ where $m \neq 0$ then the line $mx+b$ is a slant asymptote.
@@ -317,15 +318,45 @@ Not Applicable due to Professor Wong not letting us use graphing calculators.
 			
 			\item \textbf{Introduce Notation} Assign a symbol to the quantity that is to be maximized or minimized. Also assign symbols to other quantities that are unknown and use them in the diagram.
 			
-			\item Express the Symbol used for the unknown quantity
+			\item Express the Symbol(I will be using K) used for the unknown quantity in terms of some of the other symbols chosen in the previous step
+			
+			\item If $K$ was expressed as a function of more than one variable, use the given information to find relationships between the variables. What you are trying to do is solve for a single variable, so find relations that allow you to simplify the equations to solve for the given variable, in this case $K$
+			
+			\item Find the absolute maximum or minimum values of $f$ using the Extreme Value theorem(Section 4.1 Theorem 2)
 		\end{enumerate}
 			
-			
-			
-		\end{enumerate}
-
+\subsection{Newton's Method}
+	Ping me on discord if I'm wrong, but I don't think we covered this section in class.
 	
+\subsection{AntiDerivatives}
+	\begin{definition}
+		\textbf{Antiderivative}: The anti-derivative of a function is where in an interval notated as $I$, $F'(x) = f(x)$ for all $x$ in $I$.
+	\end{definition}
+	When you are taking the anti-derivative of a function, remember to include a $+C$ at the end of it, as when you take the anti-derivative, a constant is included in the new equation. The constant can be any number, which is why $C$ stands in for any number, as $C$ could be any value, yet the function will always be true.
+	\begin{theorem}
+		General Form of the anti-derivative of the function $F'(x)$ is defined as $F(x) + C$ where $C$ is a constant
+	\end{theorem}
+	
+	\subsubsection{Key Anti-Derivatives to Remember}
+		\begin{enumerate}
+				\item $cf(x) \rightarrow cF(x)$
+				\item $f(x) + g(x) \rightarrow F(x) + G(x)$
+				\item $x^{n}(n \neq -1) \rightarrow \frac{x^{n+1}}{n+1}$
+				\item $\frac{1}{x} \rightarrow \ln{|x|}$
+				\item $e^{x} \rightarrow e^{x}$
+				\item $b^{x} \rightarrow \frac{b^{x}}{\ln{b}}$
+				\item $\cos{x} \rightarrow \sin{x} $
+				\item $\sin{x} \rightarrow -\cos{x}$
+				\item $\sec^{2}{x} \rightarrow \tan{x}$
+				\item $\sec{x} \tan{x} \rightarrow \sec{x}$
+				\item $\frac{1}{\sqrt{1-x^{2}}} \rightarrow \sin^{-1}{x}$
+				\item $\frac{1}{1+x^{2}} \rightarrow \tan^{-1}{x}$
+				\item $\cosh{x} \rightarrow \sinh{x}$
+				\item $\sinh{x} \rightarrow \cosh{x}$
+		\end{enumerate}
 
+
+ 
 
 
 	
