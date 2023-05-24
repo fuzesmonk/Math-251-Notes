@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.4)  24 MAY 2023 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.4)  24 MAY 2023 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./Math Notes.tex"
-(Math Notes.tex
+**"./Final Studyguide.tex"
+(Final Studyguide.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -178,64 +178,11 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip59
 \dth@everypar=\toks30
 )
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-))
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)))
-\c@section@level=\count275
-)
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thmtools.sty
-Package: thmtools 2023/02/17 v0.75
-\thmt@toks=\toks31
-\c@thmt@dummyctr=\count276
-
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-patch.sty
-Package: thm-patch 2023/02/17 v0.75
-
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\parseargs.sty
-Package: parseargs 2023/02/17 v0.75
-\@parsespec=\toks32
-)) (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-kv.sty
-Package: thm-kv 2023/02/17 v0.75
-Package thm-kv Info: Theorem names will be uppercased on input line 42.
-Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
-)
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-autoref.st
-y
-Package: thm-autoref 2023/02/17 v0.75
- (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\aliasctr.sty
-Package: aliasctr 2023/02/17 v0.75
-))
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-listof.sty
-Package: thm-listof 2023/02/17 v0.75
-)
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-restate.st
-y
-Package: thm-restate 2023/02/17 v0.75
-)
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
-Package: thm-amsthm 2023/02/17 v0.75
-\thmt@style@headstyle=\toks33
-))
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
 sty
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -243,7 +190,7 @@ sty
 y
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks34
+\pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen162
 \pgfutil@tempdimb=\dimen163
 )
@@ -268,12 +215,12 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks34
 ))
 \pgf@x=\dimen164
 \pgf@y=\dimen165
@@ -287,14 +234,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen173
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count277
-\c@pgf@countb=\count278
-\c@pgf@countc=\count279
-\c@pgf@countd=\count280
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count281
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count279
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -313,8 +260,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count282
-\pgfsyssoftpath@bigbuffer@items=\count283
+\pgfsyssoftpath@smallbuffer@items=\count280
+\pgfsyssoftpath@bigbuffer@items=\count281
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -349,11 +296,11 @@ code.tex)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen174
-\pgfmath@count=\count284
+\pgfmath@count=\count282
 \pgfmath@box=\box55
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex)
@@ -377,7 +324,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count285
+\c@pgfmathroundto@lastzeros=\count283
 ))
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -417,7 +364,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
-\pgf@picture@serial@count=\count286
+\pgf@picture@serial@count=\count284
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -452,8 +399,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen198
-\pgf@sys@shading@range@num=\count287
-\pgf@shadingcount=\count288
+\pgf@sys@shading@range@num=\count285
+\pgf@shadingcount=\count286
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -513,8 +460,8 @@ code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen257
 \pgffor@skip=\dimen258
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -523,7 +470,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count289
+\pgf@plot@mark@count=\count287
 \pgfplotmarksize=\dimen259
 )
 \tikz@lastx=\dimen260
@@ -538,39 +485,34 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box62
 \tikz@tempbox=\box63
 \tikz@tempbox@bg=\box64
-\tikztreelevel=\count290
-\tikznumberofchildren=\count291
-\tikznumberofcurrentchild=\count292
-\tikz@fig@count=\count293
+\tikztreelevel=\count288
+\tikznumberofchildren=\count289
+\tikznumberofcurrentchild=\count290
+\tikz@fig@count=\count291
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count294
-\pgfmatrixcurrentcolumn=\count295
-\pgf@matrix@numberofcolumns=\count296
+\pgfmatrixcurrentrow=\count292
+\pgfmatrixcurrentcolumn=\count293
+\pgf@matrix@numberofcolumns=\count294
 )
-\tikz@expandcount=\count297
+\tikz@expandcount=\count295
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
-ision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
 e.tex
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks46
-\t@pgfplots@tokb=\toks47
-\t@pgfplots@tokc=\toks48
+\t@pgfplots@toka=\toks43
+\t@pgfplots@tokb=\toks44
+\t@pgfplots@tokc=\toks45
 \pgfplots@tmpa=\dimen268
-\c@pgfplots@coordindex=\count298
-\c@pgfplots@scanlineindex=\count299
+\c@pgfplots@coordindex=\count296
+\c@pgfplots@scanlineindex=\count297
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
 sysgeneric.code.tex))
@@ -581,9 +523,9 @@ ib\pgfplotsoldpgfsupp_loader.code.tex
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks49
-\t@pgf@tokb=\toks50
-\t@pgf@tokc=\toks51
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
 ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
@@ -595,14 +537,14 @@ e\pgfplotsliststructure.code.tex)
 e\pgfplotsliststructureext.code.tex)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count300
+\c@pgfplotsarray@tmp=\count298
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsmatrix.code.tex)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count301
-\t@pgfplotstable@a=\toks52
+\c@pgfplotstable@counta=\count299
+\t@pgfplotstable@a=\toks49
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsdeque.code.tex)
@@ -614,7 +556,7 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count302
+\c@pgfplotslibrarysurf@no=\count300
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
 rypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -651,7 +593,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen271
 \pgfdecoratedinputsegmentremainingdistance=\dimen272
 \pgf@decorate@distancetomove=\dimen273
-\pgf@decorate@repeatstate=\count303
+\pgf@decorate@repeatstate=\count301
 \pgfdecorationsegmentamplitude=\dimen274
 \pgfdecorationsegmentlength=\dimen275
 )
@@ -667,7 +609,7 @@ z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 ions\pgflibrarydecorations.pathreplacing.code.tex))
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count304
+\pgfplots@numplots=\count302
 \pgfplots@xmin@reg=\dimen276
 \pgfplots@xmax@reg=\dimen277
 \pgfplots@ymin@reg=\dimen278
@@ -683,48 +625,45 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
-rarypgfplots.units.code.tex)
-\c@theorem=\count305
-\c@definition=\count306
+\c@definition=\count303
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
+\l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box66
-) (Math Notes.aux)
-\openout1 = `"Math Notes.aux"'.
+) (Final Studyguide.aux)
+\openout1 = `"Final Studyguide.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count305
 \scratchdimen=\dimen282
 \scratchbox=\box67
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count311
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count308
 \MPscratchDim=\dimen283
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks54
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks51
 )
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -736,36 +675,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 10.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
 
 
 (C:\Users\ekeha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1
-
-{C:/Users/ekeha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 224--229
-
- []
-
-[5] [6]
-Underfull \hbox (badness 1546) in paragraph at lines 289--290
-[]\T1/cmr/bx/n/10 Horizontal Asymp-totes  \T1/cmr/m/n/10 If ei-ther $[][] [] \O
-T1/cmr/m/n/10 = \OML/cmm/m/it/10 L$ \T1/cmr/m/n/10 or
- []
-
-[7] [8]
-Overfull \hbox (25.7715pt too wide) in paragraph at lines 373--376
+Overfull \hbox (25.7715pt too wide) in paragraph at lines 43--46
 \T1/cmr/m/it/10 This leads to the def-i-nite in-te-gral from $\OML/cmm/m/it/10 
 a$ \T1/cmr/m/it/10 to $\OML/cmm/m/it/10 b$ \T1/cmr/m/it/10 be-ing $[][] \OML/cm
 m/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
@@ -773,40 +700,41 @@ m/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
  []
 
 
-Overfull \hbox (7.95833pt too wide) in paragraph at lines 373--376
+Overfull \hbox (7.95833pt too wide) in paragraph at lines 43--46
 \T1/cmr/bx/it/10 THE LIMIT OF THIS FUNC-TION MUST EX-IST FOR THE ABOVE
  []
 
-[9] [10] (Math Notes.aux) ) 
+[1
+
+{C:/Users/ekeha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+(Final Studyguide.aux) ) 
 Here is how much of TeX's memory you used:
- 25328 strings out of 476334
- 654476 string characters out of 5787972
- 1865382 words of memory out of 5000000
- 45332 multiletter control sequences out of 15000+600000
- 519995 words of font info for 48 fonts, out of 8000000 for 9000
+ 23956 strings out of 476334
+ 622207 string characters out of 5787972
+ 1867382 words of memory out of 5000000
+ 44021 multiletter control sequences out of 15000+600000
+ 518452 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,89p,735b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ekeha\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\ekeha\AppData\Local\MiKTeX\fonts/pk
-/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\ekeha\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ekeha\AppData\Local\MiK
-TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\ekeha\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ekeha\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/ekeha/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
-rs/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi5.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ekeha/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ekeha/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ekeha/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Math Notes.pdf" (10 pages, 240786 bytes).
+ 99i,5n,103p,751b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ekeha\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbi1000.pk> <C:\Users\ekeha\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ekeha\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\ekeha\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\ekeha\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk><C:/Users/ekeha/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ekeha/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr5.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/ekeha/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ekeha/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Final Studyguide.pdf" (2 pages, 148186 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
+ 220 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

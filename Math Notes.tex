@@ -354,10 +354,65 @@ Not Applicable due to Professor Wong not letting us use graphing calculators.
 				\item $\cosh{x} \rightarrow \sinh{x}$
 				\item $\sinh{x} \rightarrow \cosh{x}$
 		\end{enumerate}
+\section{Chapter 5}
+	\subsection{Areas and Distances}
+		The most basic way of finding the area under a curve is by using uniform sized rectangles that have one of its vertices contacting the line. As you use more and more rectangles, the more accurate your approximation of the area will be.
+		\begin{definition}
+			The area $A$ of the region $S$ that lies under the graph of the continuous function $f$ is the limit of the sum or the areas of approximating rectangles:
+			\begin{center}
+				$A=\lim_{n\rightarrow \infty}{[f(x-1)\Delta{x}+f(x_2)\Delta{x} + f(x_n)\Delta{x}]}$
+			\end{center}
+		\end{definition} 
+			The simpler way of notation the equation for finding area under a curve using rectangles is in sigma notation.
+\\			This is known as the Riemann Sum:
+\\			Sigma notation or a Riemann sum is read as $\sum_{i=1}^{n} f(x_{1})\Delta{x} = f(x_{1}\Delta{x} + f(x_{n}\Delta{x})$
+\\			$n$ is where the ending x-value of the last rectangle
+\\			$i=1$ is where the starting x-value that the rectangle will be
+	\subsection{The Definite Integral}
+		\begin{definition}
+			If $f$ is a function defined for $a\geq x \geq b$, we divide the interval $[a,b]$ into $n$ sub-intervals of equal width $\Delta{x} = \frac{b-a}{n}$. Letting $x_{0}(=a),x_{1}, x_{2}, x_{n}(=b)$ be the endpoints for the sub-intervals, while also letting $x_{1}^{*} , x_{2}^{*} , x_{n}^{*}$ be sample points in each of the subintervals, which means that $x_{i}^{*}$ is in the subinterval $[x_{i-1}, x_{i}]$
+\\			This leads to the definite integral from $a$ to $b$ being $\int_{a}^{b} f(x)dx = \lim_{n \rightarrow \infty}{\sum_{i=1}^{n}{f(x_{i}^{*}\Delta{x})}}$
+\\			\textbf{THE LIMIT OF THIS FUNCTION MUST EXIST FOR THE ABOVE EQUATION TO WORK}
+		\end{definition}
 
+			YES RIEMANN SUMS ARE TEDIOUS BUT THEY HELP CONCEPTUALIZE INTEGRALS
 
- 
+		\subsubsection{Evaluating Integrals}
+			\begin{enumerate}
+				\item $\sum_{i=1}^{n}{i} = \frac{n(n+1)}{2}$
+				\item $\sum_{i=1}^{n}{i^{2}} = \frac{n(n+!)(2n+1)}{6}$
+				\item $\sum_{i=1}^{n}{i^{3}} = [\frac{n(n+1)}{2}]^{2}$
+			\end{enumerate}
+				Rules for working with Sigma Notation
+					\begin{enumerate}
+						\item $\sum_{i=1}^{n}{c} = nc$
+						\item $\sum_{i=1}^{n}{ca_{i}} = c\sum_{i=1}^{n}{a_{i}}$
+						\item $\sum_{i=1}^{n}{(a_{i}+b_{i})} = \sum_{i=1}{n}{a_{i}} + \sum_{i=1}{n}{b_{i}}$
+						\item $\sum_{i=1}^{n}{(a_{i}-b_{i})} = \sum_{i=1}^{n}{a_{i}} - \sum_{i=1}^{n}{b_{i}}$
+					\end{enumerate}
+			So how do integrals work?
+\\			Well we know how Riemann sums work, so definite integrals are like if we were taking a Reimann sum with infinitesimally small rectangles.
+\\ 			Since the limit of a Riemann sum works no matter if $a<b$ or $a>b$ we can assume that $\int_{b}^{a}{f(x)dx} = -\int_{b}^{a}{f(x)dx}$
+\\			Similar to the derivative rule, if $a=b$ then the change in x(or $\Delta{x})=0$ so the integral evaluates to zero
+\\			Here are some of the basic properties of the integral:
+			\begin{enumerate}
+				\item $\int_{b}^{a}{c dx} = c(b-a)$ when $c$ is a constant
+				\item $\int_{b}^{a}{f(x)+g(x)}dx = \int_{b}^{a}{f(x)dx} + \int_{b}^{a}{g(x)dx}$
+				\item $\int_{b}^{a}{cf(x)dx} = c\int_{b}^{a}{f(x)dx}$ when $c$ is a constant
+				\item $\int_{b}^{a}{[f(x)-g(x)]dx} = \int_{b}^{a}{f(x)dx} - \int_{b}^{a}{g(x)dx}$
+			\end{enumerate}
+	\subsubsection{The Fundamental Theorem of Calculus}
+		Part 1: If $f$ is continuous on $[a,b]$ then the function $g$ defined by
+		\begin{center}
+			$g(x) = \int_{a}^{x}{f(t)dt}$ when $a \leq x \leq b$
+		\end{center}
+		As long as the function is continuous along its interval and differentiable along that same interval
+\\		Part 2: If $f$ is continuous on $[a,b]$ then: 
+		\begin{center}
+			$\int_{a}^{b}{f(x)dx} = F(b) - F(a)$
+		\end{center}
+ 		Meaning that as long as $F$ is any anti derivative of $f$, $F'(x) = f(x)$
 
-
+As a wrap up for anti-derivatives and derivatives, they are inverses of each-other, hence the names. A really easy way to check your work is to take the derivative if you had to find the derivative, or take the anti-derivative of the function you were asked to derive.
 	
 \end{document}
